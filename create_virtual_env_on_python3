@@ -1,0 +1,9 @@
+Step 1: install virtualenv package using pip3 for python3
+    pip3 install virtualenv --user
+
+Step 2: Create your local virtualenv with name(venv in e.g.)
+    virtualenv -p /your_python3_path virtualenv_name
+    e.g. virtualenv -p /usr/bin/python3 venv
+
+Step 3: start using virtual env created for your individual project requirements to install depekdent packages using pip3 in it
+    source venv/bin/activate
